@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+   background-color: rgb(155, 134, 122);
+    /* color: #333; */
+  }
+  #todo-form{
+    display: flex;
+    gap: 10%;
+  }
+  h1{
+   padding-left: 40%;
+   color:rgb(14, 48, 91);
+  }
+  #todo-app {
+    padding-top: 2%;
+    width: 50%;
+    min-height: 60vh;
+    margin-left: 25%;
+    /* padding: 200px; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 2%;
+  }
+  
+  #todo-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-left: 20px;
+    
+  }
+  
+  #todo-form button {
+    padding: 10px 20px;
+    background-color: rgb(14, 48, 91);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+  }
+  
+  #todo-form button:hover {
+    background-color: #4682B4;
+  }
+  
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #header{
+    display: flex;
+  }
+  .logo{
+    width: 9%;
+    height: 9vh;
+  }
+  
+  /* #todo-list li {
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+
+#content{
+    display: flex;
+    margin-top: 5%;
+    gap: 10%;
+
+}
+@media only screen and (max-width: 540px) {
+  #navbar{
+                          overflow: hidden;
+                          position: relative;
+                          flex-wrap: wrap;
+                        }
+                         #navbar a {
+                          padding: 14px 16px;
+                          text-decoration: none;
+                          font-size: 17px;
+                          display: block;
+                        }
+                        #todo-app {
+                          width: 60%;
+                          
+                          padding: 200px;
+                          background-color: #fff;
+                          border-radius: 10px;
+                          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                        
+                        }
+      
+                     
+                    }
+                    @media only screen and (max-width: 768px) {
+                    
+                      #navbar{
+                          display: flex;
+                          flex-wrap: wrap;
+                    }
+                    }
+                    
+                    @media only screen and (max-width: 280px) {
+                       
+    
+                      #navbar{
+                          display: flex;
+                          flex-wrap: wrap;
+                    }
+                    .page{
+                      border-radius: 50%;
+                      width: 50%;
+                      margin-right: 20%;
+                     
+                     }
+         
+                    
+                       
+                       
+                     #navbar{
+                      overflow: hidden;
+                      position: relative;
+                      flex-wrap: wrap;
+                    }
+                     #navbar a {
+                      padding: 14px 16px;
+                      text-decoration: none;
+                      font-size: 17px;
+                      display: block;
+                    }
+                    #todo-app {
+                      width: 50%;
+                      padding-left: 10%;
+                      margin-right: 40%;
+                      background-color: #fff;
+                      border-radius: 10px;
+                      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                    
+                    
+                    }
+                        
+  
+  
+                  }  
+
+
+/* 
+  wrapper-container
+  container 
+  nav  
+  nav_menu 
+  nav_item--active 
+  stoper
+  stoper_time
+buttons
+buttons_menu
+buttons_reset */
