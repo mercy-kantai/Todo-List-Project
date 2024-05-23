@@ -105,22 +105,29 @@ function addTask(task) {
 
   const checkBox = document.createElement('input');
   checkBox.setAttribute('type', 'checkbox');
+  checkBox.style.marginLeft="30px"
   listItem.appendChild(checkBox);
 
   const startButton = document.createElement('button');
   startButton.textContent= 'Start';
+  startButton.style.marginLeft="30px"
   listItem.appendChild(startButton);
 
   const resetButton = document.createElement('button');
   resetButton.textContent = 'Reset';
+  resetButton.style.marginLeft="30px"
   listItem.appendChild(resetButton);
 
   const editButton = document.createElement('button');
   editButton.textContent = 'Edit';
+  editButton.style.marginLeft="30px"
+
   listItem.appendChild(editButton);
 
   const deleteButton = document.createElement('button');
   deleteButton.textContent = 'Delete';
+  deleteButton.style.marginLeft="30px"
+
   listItem.appendChild(deleteButton);
 
   todoList.appendChild(listItem);

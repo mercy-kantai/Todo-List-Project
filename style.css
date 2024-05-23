@@ -1,7 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
-   background-color: rgb(155, 134, 122);
-    /* color: #333; */
+   background-image: url(media/to_do_listimage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+    
   }
   #todo-form{
     display: flex;
@@ -17,10 +20,15 @@ body {
     min-height: 60vh;
     margin-left: 25%;
     /* padding: 200px; */
-    background-color: #fff;
+    background-color:rgb(139, 162, 73);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    margin-top: 2%;
+    margin-top: 9%;
+    box-shadow: 25px 25px 75px rgb(139, 162, 73),
+    10px 10px 70px rgb(139, 162, 73),
+    inset 5px 5px 10px rgb(139, 162, 73),
+    inset 5px 5px 20px rgb(139, 162, 73),
+    inset -5px -5px 15px rgb(139, 162, 73);
   }
   
   #todo-form input[type="text"] {
@@ -34,7 +42,7 @@ body {
   
   #todo-form button {
     padding: 10px 20px;
-    background-color: rgb(14, 48, 91);
+    background-color: rgb(29,30,30);
     color: white;
     border: none;
     border-radius: 4px;
@@ -61,16 +69,13 @@ body {
     width: 9%;
     height: 9vh;
   }
-  
-  /* #todo-list li {
-    background-color: #f9f9f9;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } */
+  #todo-list li {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: rgb(225, 230, 230);
+    margin-bottom: 5px;
+  }
+
 
 
 #content{
